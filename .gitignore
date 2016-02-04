@@ -1,0 +1,34 @@
+src/*.exe
+src/unstakeable
+src/unstakeabled
+src/test_unstakeable
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.unstakeable
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+unstakeable-qt
+Unstakeable-Qt.app
+
+# Unit-tests
+Makefile.test
+unstakeable-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
